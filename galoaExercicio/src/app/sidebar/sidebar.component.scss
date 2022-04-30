@@ -1,3 +1,7 @@
+:root {
+    --main-color: #725C5C;
+}
+
 .sidenav {
     display: flex;
     flex-direction: column;
@@ -22,11 +26,11 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-   
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);   
 }
 
 #brand-text {
+    
     height: 68px;
     width: 178px;
     left: 20px;
@@ -61,5 +65,44 @@
     top: 0%;
     bottom: 0%;
     background: url(./img/deway.png);
+}
 
+div > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div > ul > li{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 10.91%;
+    
+    height: 33px;
+    width: auto;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+    list-style: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+ul > li:hover{
+    transition: 0.2s;
+    background: #FDF1EB;
+}
+
+ul > li:focus{
+    background: red;
 }
