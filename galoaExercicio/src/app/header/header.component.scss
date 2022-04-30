@@ -3,11 +3,10 @@ h2{font-size:20px;padding: 0;margin: 0;}
 h3{font-size:16px;padding: 0;margin: 0;}
 h4{font-size:14px;padding: 0;margin: 0;}
 
-
 .header{
     display: flex;
     flex-direction: row;
-    height: 68px;
+    min-height: 68px;
     justify-content: space-between;
     background: #FDF1EB;
 }
@@ -48,7 +47,7 @@ h4{font-size:14px;padding: 0;margin: 0;}
 
 }
 
-.language-button{
+.btn-language{
     display: flex;
     flex-direction:row ;
     justify-content: center;
