@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
 
 
-body{
-    margin: 0;
-    padding: 0;
+html, body { height: 100%;width: 100%;margin: 0;padding: 0; }
 
-}
-
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
