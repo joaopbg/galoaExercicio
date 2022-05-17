@@ -12,4 +12,9 @@ export class ContentPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public showText(){
+    alert("funciona");
+
+  }
+
 }
